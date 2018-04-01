@@ -62,7 +62,8 @@ header {
 
 header .container {
     background: url(../img/ufrn-positivo-negativo.svg) 0 0 no-repeat;
-    background-position: right;
+    background-size: 25%;
+    background-position: bottom -2% right 5%;
 }
 
 header h1,
