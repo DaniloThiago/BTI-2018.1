@@ -1,5 +1,6 @@
 $('#menu a').click(function (e) {
+    let name = $(this).data('name');
+    if (!name) return;
     $('.body').removeClass('active');
-    let id = $(e.target.dataset)[0].sem;
-    $('#' + id).addClass('active');
+    $('#' + name).addClass('active');
 });
