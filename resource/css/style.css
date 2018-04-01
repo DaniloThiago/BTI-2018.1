@@ -209,6 +209,14 @@ span.icon:hover a {
     display: flex;
 }
 
+.ct-materias {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
 .materias {
     width: 100%;
     display: flex;
@@ -219,7 +227,6 @@ span.icon:hover a {
     left: 100%;
     transition: all 0.35s ease-in-out;
     position: absolute;
-    top: 240px;
 }
 
 section.active {
