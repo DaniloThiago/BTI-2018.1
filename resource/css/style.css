@@ -211,8 +211,8 @@ span.icon:hover a {
 }
 
 .ct-materias {
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 240px;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
