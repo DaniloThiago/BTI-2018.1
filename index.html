@@ -8,7 +8,7 @@
 	<title>BTI 2018.1</title>
 	<link rel="stylesheet" href="./resource/css/style.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-	    crossorigin="anonymous"></script>
+	  crossorigin="anonymous"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
@@ -86,137 +86,213 @@
 				</p>
 				<p>
 					<strong class="green">OBS.:</strong> Se um elemento
-					<span class="math inline">$$a$$</span> está em um conjunto
-					<span class="math inline">$$A$$</span> então
-					<span class="math inline">$$a$$</span> possui a propriedade que
-					<span class="math inline">$$A$$</span> caracteriza.
+					<span class="math">$$a$$</span> está em um conjunto
+					<span class="math">$$A$$</span> então
+					<span class="math">$$a$$</span> possui a propriedade que
+					<span class="math">$$A$$</span> caracteriza.
 				</p>
 				<h2>Relação de inclusão</h2>
 				<p>
 					<strong class="green">Definição:</strong> Diz-se que um conjunto
-					<span class="math inline">$$A$$</span> é um subconjunto
-					<span class="math inline">$$B$$</span> e, denota-se por
-					<span class="math inline">$$A \subset B$$</span>, quando todos eleementos de
-					<span class="math inline">$$A$$</span> for também elementos de
-					<span class="math inline">$$B$$</span>.
+					<span class="math">$$A$$</span> é um subconjunto
+					<span class="math">$$B$$</span> e, denota-se por
+					<span class="math">$$A \subset B$$</span>, quando todos eleementos de
+					<span class="math">$$A$$</span> for também elementos de
+					<span class="math">$$B$$</span>.
 				</p>
 				<p>
 					<strong class="green">OBS.:</strong> Faz sentido
-					<span class="math inline">$$x \in A$$</span> e
-					<span class="math inline">$$ \{ x \} \subset A$$</span>. Não faz sentido
-					<span class="math inline">$$x \subset A$$</span> e
-					<span class="math inline">$$ \{ x \} \in A$$</span>.
+					<span class="math">$$x \in A$$</span> e
+					<span class="math">$$ \{ x \} \subset A$$</span>. Não faz sentido
+					<span class="math">$$x \subset A$$</span> e
+					<span class="math">$$ \{ x \} \in A$$</span>.
 				</p>
 				<p>
 					Caso
-					<span class="math inline">$$A$$</span> não seja subconjunto de
-					<span class="math inline">$$B$$</span> tem-se que peelo menos um elemento de
-					<span class="math inline">$$A$$</span> não pertence em
-					<span class="math inline">$$B$$</span>.
+					<span class="math">$$A$$</span> não seja subconjunto de
+					<span class="math">$$B$$</span> tem-se que peelo menos um elemento de
+					<span class="math">$$A$$</span> não pertence em
+					<span class="math">$$B$$</span>.
 					<br/>
 					<strong class="green">Notação:</strong>
-					<span class="math inline">$$A ⊄ B$$</span>.
+					<span class="math">$$A ⊄ B$$</span>.
 				</p>
 				<p>
 					<strong class="green">OBS.:</strong> O conjunto vazio
-					<span class="math inline">$$\left (\varnothing \right )$$</span> é um subconjunto de qualquer conjunto.
-					<span class="math inline">$$\forall A$$</span> conjunto, tem-se
-					<span class="math inline">$$\varnothing \subset A$$</span>.
+					<span class="math">$$\left (\varnothing \right )$$</span> é um subconjunto de qualquer conjunto.
+					<span class="math">$$\forall A$$</span> conjunto, tem-se
+					<span class="math">$$\varnothing \subset A$$</span>.
 				</p>
 				<p>
 					Suponha o contrário, ou seja,
-					<span class="math inline">$$\varnothing ⊄ A$$</span>. Isso significa que existe pelo menos um elemento
-					<span class="math inline">$$x \in \varnothing$$</span> tal que
-					<span class="math inline">$$x \notin A$$</span>.
+					<span class="math">$$\varnothing ⊄ A$$</span>. Isso significa que existe pelo menos um elemento
+					<span class="math">$$x \in \varnothing$$</span> tal que
+					<span class="math">$$x \notin A$$</span>.
 				</p>
 				<p>
 					<strong class="green">Ex.:</strong> Fize um plano
-					<span class="math inline">$$\alpha$$</span>. Considere
-					<span class="math inline">$$A$$</span> o conjunto dos retângulos do plano. Seja também
-					<span class="math inline">$$B$$</span> o conjunto dos paralelogramos do plano. Desse modo, tem-se:
-					<span class="math inline">$$A \subset B$$</span>.
+					<span class="math">$$\alpha$$</span>. Considere
+					<span class="math">$$A$$</span> o conjunto dos retângulos do plano. Seja também
+					<span class="math">$$B$$</span> o conjunto dos paralelogramos do plano. Desse modo, tem-se:
+					<span class="math">$$A \subset B$$</span>.
 				</p>
 				<h2>Propriedades fundamentais:
 					<span class="italic">não justificaveis</span>
 				</h2>
 				<p>
 					A relação de inclusão possui as seguintes propriedades (fixando
-					<span class="math inline">$$A,B$$</span> e
-					<span class="math inline">$$D$$</span>).
+					<span class="math">$$A,B$$</span> e
+					<span class="math">$$D$$</span>).
 				</p>
 				<p>
 					<ol class="roman">
 						<li>
-							<span class="math inline">$$A \subset A$$</span>
-							<span class="italic">(reflexiva)</span>
+							<span class="math">$$A \subset A \ -$$</span>
+							<span class="italic green">Reflexiva</span>
 						</li>
 						<li>
 							Se
-							<span class="math inline">$$A \subset B$$</span> e
-							<span class="math inline">$$B \subset A$$</span>, então
-							<span class="math inline">$$A = B$$</span>
-							<span class="italic">(anti-simétrica)</span>
+							<span class="math">$$A \subset B$$</span> e
+							<span class="math">$$B \subset A$$</span>, então
+							<span class="math">$$A = B \ -$$</span>
+							<span class="italic green">Anti-simétrica</span>
 						</li>
 						<li>
 							Se
-							<span class="math inline">$$A \subset B$$</span> e
-							<span class="math inline">$$B \subset D$$</span>, então
-							<span class="math inline">$$A \subset D$$</span>
-							<span class="italic">(transitiva)</span>
+							<span class="math">$$A \subset B$$</span> e
+							<span class="math">$$B \subset D$$</span>, então
+							<span class="math">$$A \subset D \ -$$</span>
+							<span class="italic green">Transitiva</span>
 						</li>
 					</ol>
 				</p>
 				<P>
 					<strong class="green">Conjunto vazio:</strong> Contradiz toda condição lógica.
-					<span class="math inline">$$ \varnothing = \{ x / x \neq x\}$$</span>
+					<span class="math">$$ \varnothing = \{ x / x \neq x\}$$</span>
 					<br/>
-					<span class="math inline">$$\varnothing$$</span> = elemento neutro na teoria de conjuntos
+					<span class="math">$$\varnothing$$</span> = elemento neutro na teoria de conjuntos
 				</P>
 				<p>
 					<strong class="green">Conjunto unitário:</strong> Seja
-					<span class="math inline">$$x$$</span> um elemento. O conjunto
-					<span class="math inline">$$\{x\}$$</span> é o conjunto unitário que possui apenas o elemento
-					<span class="math inline">$$x$$</span>.
+					<span class="math">$$x$$</span> um elemento. O conjunto
+					<span class="math">$$\{x\}$$</span> é o conjunto unitário que possui apenas o elemento
+					<span class="math">$$x$$</span>.
 				</p>
 				<h2>Conjuntos das partes de um conjuntos
-					<span class="math inline">$$X$$</span>
+					<span class="math">$$X$$</span>
 				</h2>
 				<p>
 					<strong class="green">Definição:</strong> Seja
-					<span class="math inline">$$X$$</span> um conjunto. Definimos o conjunto das partes de
-					<span class="math inline">$$X$$</span> e, denotamos por
-					<span class="math inline">$$P(x)$$</span>, do conjunto de todos os subconjuntos de
-					<span class="math inline">$$X$$</span>.
+					<span class="math">$$X$$</span> um conjunto. Definimos o conjunto das partes de
+					<span class="math">$$X$$</span> e, denotamos por
+					<span class="math">$$P(x)$$</span>, do conjunto de todos os subconjuntos de
+					<span class="math">$$X$$</span>.
 				</p>
 				<p>Nesse caso tem que
-					<span class="math inline">$$A \subset X$$</span> e
-					<span class="math inline">$$A \in P(x)$$</span>.
+					<span class="math">$$A \subset X$$</span> e
+					<span class="math">$$A \in P(x)$$</span>.
 				</p>
 				<div class="math">
 					$$P(x) = \{ A / A \subset X\}$$
 				</div>
 				<p>
 					<strong class="green">Complementar:</strong> Fixe um conjunto
-					<span class="math inline">$$\mho$$</span>, chamado conjunto universo.
+					<span class="math">$$\mho$$</span>, chamado conjunto universo.
 				</p>
 				<p>
 					<strong class="green">Definição:</strong> Seja
-					<span class="math inline">$$A \subset \mho$$</span>, defini-se complementar de
-					<span class="math inline">$$A$$</span> e denota-se por
-					<span class="math inline">$$A^{c}$$</span>, ao conjunto de todos os elementos de
-					<span class="math inline">$$ \mho $$</span> que não estão em
-					<span class="math inline">$$A$$</span>.
+					<span class="math">$$A \subset \mho$$</span>, defini-se complementar de
+					<span class="math">$$A$$</span> e denota-se por
+					<span class="math">$$A^{c}$$</span>, ao conjunto de todos os elementos de
+					<span class="math">$$ \mho $$</span> que não estão em
+					<span class="math">$$A$$</span>.
 				</p>
 				<img src="./resource/img/img-1.svg" width="100%" alt="">
 				<p>
 					<strong class="green">OBS.:</strong> Se
-					<span class="math inline">$$P$$</span>, é a propriedade que define um conjunto
-					<span class="math inline">$$A (A \subset \mho)$$</span>, isso é, se
-					<span class="math inline">$$A$$</span> substitui a propriedade de
-					<span class="math inline">$$P$$</span>, então
-					<span class="math inline">$$A^{c}$$</span> substitui a propriedade “não
-					<span class="math inline">$$P$$</span>”
-					<span class="math inline italic">$$(¬ P)$$</span>.
+					<span class="math">$$P$$</span>, é a propriedade que define um conjunto
+					<span class="math">$$A (A \subset \mho)$$</span>, isso é, se
+					<span class="math">$$A$$</span> substitui a propriedade de
+					<span class="math">$$P$$</span>, então
+					<span class="math">$$A^{c}$$</span> substitui a propriedade “não
+					<span class="math">$$P$$</span>”
+					<span class="math">$$(¬ P)$$</span>.
+				</p>
+				<p>
+					<strong class="green">Propriedades:</strong>
+					<ol class="roman">
+						<li>Seja
+							<span class="math">$$\mho$$</span> o conjunto universo e
+							<span class="math">$$B \subset \mho$$</span> e
+							<span class="math">$$A \subset \mho$$</span>, então:
+							<span class="math">$$(A^{c})^{c} = A$$</span>
+						</li>
+						<li>Se
+							<span class="math">$$A \subset B$$</span>, então
+							<span class="math">$$B^{c} \subset A^{c}$$</span>. Matemáticamente:
+							<span class="math">$$A \subset B \Rightarrow B^{c}\subset A^{c}$$</span>
+						</li>
+					</ol>
+				</p>
+				<img src="./resource/img/img-1.svg" width="100%" alt="">
+				<p>
+					Supondo que
+					<span class="italic">(I)</span> é valida, tem-se a equivalência na afirmação acima. Ou seja:
+					<span class="math">$$A \subset B \Leftrightarrow B^{c} \subset A^{c}$$</span>.
+				</p>
+				<p>Vamos supor que
+					<span class="math">$$B^{c} \subset A{c}$$</span>, desse modo,
+					<span class="math">$$(B^{c})^{c} \supset (A^{c})^{c} \Rightarrow B \supset A$$</span>.
+				</p>
+				<p>Tal equivalência permite assumirmos a demonstração por absurdo, pois
+					<span class="math">$$A \subset B$$</span> significa
+					<span class="math">$$P \Rightarrow Q$$</span> e, isso é equivalente a
+					<span class="math">$$¬Q \Rightarrow ¬P$$</span>.
+					<span class="italic">P: define A e Q: define B</span>
+				</p>
+				<h2>União e interseção</h2>
+				<p>Seja
+					<span class="math">$$A$$</span> e
+					<span class="math">$$B$$</span> dois conjuntos.
+				</p>
+				<p>
+					A
+					<strong>união</strong> de dois conjuntos
+					<span class="math">$$A$$</span> e
+					<span class="math">$$B$$</span>, que determinnamos por
+					<span class="math">$$A \cup B$$</span>, é o conjunto que consiste dos elementos que estão em
+					<span class="math">$$A$$</span>
+					<strong>ou</strong> estão em
+					<span class="math">$$B$$</span>. Assim:
+				</p>
+				<div class="math">$$A \cup B = \{x/x\in A \ \ ou \ \ x\in B\}$$</div>
+				<p>
+					Sendo assim
+					<span class="math">$$A \cup B$$</span> substitui a propriedade
+					<span class="math">$$“P \ ou \ Q”$$</span>.
+				</p>
+				<p>
+					Seja
+					<span class="math">$$A, B,$$</span> e
+					<span class="math">$$C$$</span> conjutos. Então:
+					<ol class="roman">
+						<li>
+							<span class="math">$$(A \cup B) \cup C = A \cup (B \cup C) \ - $$</span>
+							<span class="italic green">Associatividade</span>
+						</li>
+						<li>
+							<span class="math">$$A \cup B = B \cup A \ - $$</span>
+							<span class="italic green">Comutatividade</span>
+						</li>
+						<li>
+							Se
+							<span class="math">$$A \subset B$$</span>, então
+							<span class="math">$$A \cup B = B$$</span>
+						</li>
+						<li>
+							<span class="math">$$A \cup \varnothing = A \ - $$</span> Vazio é o elemento neutro na operação de união.
+						</li>
+					</ol>
 				</p>
 				<!-- <div class="math">
 				$$x = \frac{\sqrt{5-6+6}}{2}$$
