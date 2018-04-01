@@ -7,6 +7,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-family: 'Offside', cursive;
+    overflow-x: hidden;
 }
 
 a {
@@ -15,9 +16,21 @@ a {
     transition: all 0.35s ease-in-out;
 }
 
+ol.roman {
+    list-style-type: upper-roman;
+}
+
 sub.rom {
     font-family: 'Roboto Mono', monospace;
     font-size: 8px;
+}
+
+.math.inline {
+    display: inline-block;
+}
+
+.math.inline span {
+    margin: 0 .75px;
 }
 
 .green {
